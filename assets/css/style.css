@@ -229,20 +229,17 @@ transition: all 0.3s ease-in-out;
 /* ================================= */
 /* :::::: Custom Header Style :::::: */
 /* ================================= */
-.entry-header.side.left,
-.breadcrumbs_cont.side.left{
-	padding-left: 260px;
+.entry-header{
+	padding: 50px 0;
 }
-.entry-header.side.right,
-.breadcrumbs_cont.side.right{
-	padding-right: 260px;
+.entry-header .entry-title{
+	margin: 0px;
 }
 /* ================================= */
 /* ::::::: Breadcrumb Styles ::::::: */
 /* ================================= */
 .breadcrumbs_cont{
 	padding: 10px 15px;
-	color: #fff;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
@@ -257,7 +254,6 @@ transition: all 0.3s ease-in-out;
 	text-align: right;
 }
 .breadcrumbs_cont a{
-	color: #fff;
 	text-decoration: none;
 }
 .breadcrumbs_cont #breadcrumbs,
@@ -284,7 +280,6 @@ transition: all 0.3s ease-in-out;
 }
 .breadcrumbs_cont #breadcrumbs .separator{
 	font-weight: 100;
-	color: #fff;
 }
 .entry-header #breadcrumbs a{
     text-decoration: none;
@@ -905,6 +900,7 @@ div[class*=col-]>.column_inner:after{
 	.tab-content .panel,
 	.tab-content.panel-group .panel-heading+.panel-collapse>.panel-body{
 		border-top: none;
+		border-radius: 0px 0px 4px 4px;
 	}
 	.tabs .panel-default>a.panel-heading{
 		display: none;
